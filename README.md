@@ -12,3 +12,4 @@ TabLayout api
 - tabSelectedTextColor:设置选择文本颜色
 - tabMinWidth:最小宽度
 - tabBackground:Tab背景颜色(ID)@color/colorAccent
+- tabSelectedTextColor:Tab被选中的颜色
