@@ -1,0 +1,9 @@
+# TabsDemo
+TabLayout api
+- tabIndicatorHeight:设置指示器高度
+- tabIndicatorColor:设置指示器颜色
+- tabPadding:设置文字距离tab的Padding
+- tabTextColor:设置文本颜色
+- tabSelectedTextColor:设置选择文本颜色
+- tabMinWidth:最小宽度
+- tabBackground:Tab背景颜色(ID)@color/colorAccent
