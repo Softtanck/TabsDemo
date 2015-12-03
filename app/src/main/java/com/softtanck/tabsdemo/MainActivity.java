@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
 
         list = new ArrayList<>();
         titlelist = new ArrayList<>();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 30; i++) {
             list.add(View.inflate(MainActivity.this, R.layout.content, null));
             titlelist.add("Title" + i);
         }
@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
         // First we'll add Tabs, using the adapter's page titles
         // setTabsFromPagerAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager); // 关联viewPager
+        tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
 
         //private List<OnPageChangeListener> mOnPageChangeListeners;
 
