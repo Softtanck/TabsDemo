@@ -13,3 +13,6 @@ TabLayout api
 - tabMinWidth:最小宽度
 - tabBackground:Tab背景颜色(ID)@color/colorAccent
 - tabSelectedTextColor:Tab被选中的颜色
+
+
+##tab_layout.setTabMode(TabLayout.MODE_SCROLLABLE);可以设置进行滚动,如果你有多个TabTile的时候.##
